@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Glossaire</title>
+</head>
+<body>
+    <h1>Glossaire</h1>
+
+    <h2>Général</h2>
+    <div class="general">
+        <div class="question">
+            <p class="Q">1 Quel est  l'environnement à installer pour  exécuter  un  script  PHP?  Citer 2  exemples  de  logiciels permettant ce contexte</p>
+            <p>Pour exécuter un script PHP, vous avez besoin d'un environnement de développement ou d'un serveur web capable de prendre en charge PHP.</p>
+            <p>Laragon et XAMPP</p>
+        </div>
+        <div class="question">
+            <p class="Q">2 Qu’est-ce qu’un algorithme ?</p>
+            <p>Un algorithme est une série d'instructions ou de règles qui permettent de résoudre un problème ou d'accomplir une tâche spécifique.</p>
+        </div>
+        <div class="question">
+            <p class="Q">3 Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ? </p>
+            <p>Une variable stocke une valeur dans un programme, elle peut etre de différent types ex: integer string array ... 
+            </p>
+            <p>Une variable commence par $ en php</p>
+        </div>
+        <div class="question">
+            <p class="Q">4 Qu’est-ce que la portée d’une variable ?</p>
+            <p>La portée d'une variable fait référence a la partie du programme dans laquelle cette variable est accesssible.</p>
+        </div>
+        <div class="question">
+            <p class="Q">Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?</p>
+            <p>Les constantes on une valeur fixe  et sont utilisées pour représente des données statique</p>
+            <p>Les variables peuvent etre modifiée une fois qu'elles sont definie.</p>
+        </div>
+        <div class="question">
+            <p class="Q">6 Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation ?</p>
+            <p>Une superglobale est une variable prédéfinie en PHP qui est accessible de n'importe où dans le script, </p>
+            <ul>
+                <li>$GLOBALS Contient toutes les variables globales definio dans le script.</li>
+                <li>$_SERVER Contient les informatioons sur le serveur.</li>
+                <li>$_REQUEST Contient les données envoyé via http.</li>
+                <li>$_GET Contient les données envoyées via une requête HTTP GET.</li>
+                <li>$_POST Contient les données envoyées via une requête HTTP POST.</li>
+                <li>$_FILESContient les informations sur les fichiers téléchargés vi post.</li>
+                <li>$_ENV Contient les variables d'environnement du système.</li>
+                <li>$_COOKIE Contient les cookies des clients.</li>
+                <li>$_SESSION Contient les variable de session.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <p class="Q">7 Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)</p>
+            <ul>
+                <li>Entier (int) Represente les nombres entier EX $age = 37.</li>
+                <li>Flottant (float) Reprensente les nombres decimaux EX $prix = 9,99.</li>
+                <li>Chaine de caractere (string) Represente un ensemble de caracteres EX $nom = anthony. </li>
+                <li>Booléen (bool) Le Booleen renvoit vrai ou faux EX $estValid = False</li>
+                <li>Tableau (array) Represente une questionlection d'elements EX $nbTab = arrray(1,2,3,4,5,6).</li>
+                <li>Null (null): Absence de valeur EX $variable = null.</li>
+            </ul>
+        <div class="question">
+            <p class="Q">8 Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ? </p>
+            <p>Oui, en PHP, il existe plusieurs types de tableaux :</p>
+            <ul>
+                <li>
+                    <p>Tableaux indexés : Ce sont les tableaux les plus couramment utilisés. Les éléments sont accessibles par leur position (indice) numérique.</p>
+                    <p>$fruits = array("pomme", "banane", "orange");</p>
+                    <p>echo $fruits[0]; // Affiche "pomme"</p>
+                </li>
+                <li>
+                    <p>	Tableaux associatifs : Dans ce type de tableau, les éléments sont associés à des clés plutôt qu'à des indices numériques. Chaque élément est constitué d'une paire clé-valeur.</p>
+                    <p>
+                        $personne = array(<br>
+                        "nom" => "Doe",<br>
+                        "prénom" => "John",<br>
+                        "âge" 	=> 25);</p>
+                    <p>echo $personne["nom"]; // Affiche "Doe"</p>
+                </li>
+                <li>
+                    <p>Tableaux multidimensionnels : Ce sont des tableaux qui contiennent d'autres tableaux à l'intérieur. Ils permettent de représenter des structures de données complexes.</p>
+                    <p>$matrice = array(
+                        array(1, 2, 3),
+                        array(4, 5, 6),
+                        array(7, 8, 9)
+                    );</p>
+                    <p>echo $matrice[1][2]; // Affiche 6</p>
+
+                </li>
+            </ul>
+        </div>
+        <div class="question">
+            <p class="Q">9 Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles</p>
+            <ul>
+                <li>Séquence: execute les actions une a une</li>
+                <li>Répétition: évalue une condition et effectue une action sous condition</li>
+                <li>Selection: évalue une condition d’une ou plusieurs action</li>
+            </ul>
+        </div>
+        <div class="question">
+            <p class="Q">10 Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?</p>
+            <p>strlen() compte le nombre de caractere dans une chaine de caracteres.</p>
+        </div>
+        <div class="question">
+            <p class="Q">11 Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP</p>
+            <p>une section permet de stocker les données d’un utilisateur</p>
+            <p>session_start()</p>
+            <p>EX crée un compte user dans un site ou une app.</p>
+
+        <div class="question">
+            <p class="Q">12 Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP</p>
+            <p>Un cookie est un petit fichier texte stocké par le navigateur pour stocker des informations spécifiques d'un utilisateur</p>
+            <p>EX on peut l'utiliser pour personnaliser l'expérience utilsateur pour ses prochaines visites</p>
+        </div>
+        <div class="question">
+            <p class="Q">13 Quelle est la différence entre les instructions « require » et « include » en PHP</p>
+            <p>"Require" est plus strict et arrête l'exécution en cas d'erreur, tandis que "include" est plus permissif et continue l'exécution en affichant un avertissement en cas d'erreur. Le choix entre les deux dépend de la nécessité et de l'importance du fichier inclus dans le fonctionnement du script.</p>
+        </div>
+        <div class="question">
+            <p class="Q">14 Comment effectuer une redirection en PHP ?</p>
+            <p>Grace a HEADER : (‘Location: ………);</p>
+        </div>
+        <div class="question">
+            <p class="Q">15 Définir la partie « front-end » et « back-end » d’une application</p>
+            <ul>
+                <li>front end et la partie visible du site celle avec laquelle le USER interagir </li>
+                <li>Back end partie que l’utilisateur ne voit pas c’est la partie en charge des fonctionnalité.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <p class="Q">16 Définir le contrôle de version ? Qu’est-ce que Git ?</p>
+            <p>Le controleur de version enrengistre les modification apporter au fichier c'est un outil de developpement qui aide une equipe de developpeur a gerer les changements apportés au code source au fil du temps.</p>
+            <p>Git est un système de contrôle de version</p>
+        </div>
+        <div class="question">
+            <p class="Q">17 Qu’est-ce qu’un CMS ? Citer au moins 2 exemples</p>
+            <p>Est un logiciel grace auquel il est possible de crée une gerée un site web facilement sans maitrise d’un langage de programation.</p>
+            <ul>
+                <li>Prestashop</li>
+                <li>WordPress</li>
+                <li>Drupal</li>
+                <li>Neos</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Front End</h2>
+    <div class="frontEnd">
+        <div class="question">
+            <p class="Q">1 Quelle est la différence entre UX Design et UI Design ?</p>
+            <ul>
+                <li>UX prend en charge de l’ergonomie de la page </li>
+                <li>UI prend  en charge des element visuel et du rendu global.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+        <div class="question">
+            <p class="Q"></p>
+        </div>
+
+    </div>
+</body>
+</html>
+            
+            
+                    
