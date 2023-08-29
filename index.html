@@ -5,11 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Glossaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#general">Général</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#frontEnd">Front-end</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#uxUi">UX/UI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#poo">POO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#archi">Architecture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#modelBdd">Modélisation/BDD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#symfony">Symfony</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#securite">Sécurité</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#rgpd">RGPD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#seo">SEO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#gestionProjet">Gestion projet/DevOps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#english">English</a>
+                    </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+          <div class="stickyButton">
+            <a href="#" class="sticky"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
     <h1>Glossaire</h1>
 
-    <h2>Acconyme</h2>
+    <h2>Acronyme</h2>
     <div class="acronyme">
         <ul>
             <li>API : Application Programming Interface</li>
@@ -22,9 +77,9 @@
             <li>CSS : Cascading Style Sheets</li>
             <li>CMS : Content manager system = systeme de gestion de contenu</li>
             <li>JSON : JavaScript Object Notation</li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>HTTP : HyperTexte Transfer Protocol</li>
+            <li>AJAX : Asynchronous JavaScript and XML(JavaScript et XML asynchrones)</li>
+            <li>XSS : Cross-Site Scripting</li>
             <li></li>
             <li></li>
             <li></li>
@@ -41,7 +96,7 @@
     </div>
 
     <h2>Général</h2>
-    <div class="general">
+    <div id="general" class="general">
         <div class="question">
             <p class="Q">1 Quel est  l'environnement à installer pour  exécuter  un  script  PHP?  Citer 2  exemples  de  logiciels permettant ce contexte</p>
             <p>Pour exécuter un script PHP, vous avez besoin d'un environnement de développement ou d'un serveur web capable de prendre en charge PHP.</p>
@@ -177,7 +232,7 @@
     </div>
 
     <h2>UX/UI</h2>
-    <div class="uxui">
+    <div id="uxUi" class="uxUi">
         <div class="question">
             <p class="Q">1 Quelle est la différence entre UX Design et UI Design ?</p>
             <ul>
@@ -212,9 +267,98 @@
             <p>Consist a se concentrer en priorité sur la réalisation de contenu a destination des mobile.</p>
         </div>
     </div>
+    <h2>Front end</h2>
+    <div class="frontEnd">
+        <div class="question">
+            <p class="Q">1 Définir HTML</p>
+            <p>HTML (HyperText Markup Language) est un langage de balisage utilisé pour structurer le contenu des pages web. C'est la norme fondamentale du web pour définir la structure des pages.</p>
+        </div>
+        <div class="question">
+            <p class="Q">2 Définir CSS</p>
+            <p>CSS (Cascading Style Sheets) est un langage de feuilles de style utilisé pour définir l'apparence et la mise en forme des éléments HTML d'une page web. Il permet de contrôler les couleurs, les polices, les marges, les positions et d'autres aspects visuels des éléments d'une page.</p>
+        </div>
+        <div class="question">
+            <p class="Q">3 Définir Javascript</p>
+            <p>4 JS (JavaScript) est un langage de programmation utilisé pour rendre les pages web interactives et dynamiques. Il permet d'ajouter des fonctionnalités avancées aux sites web, de manipuler le contenu HTML et de communiquer avec les utilisateurs</p>
+        </div>
+        <div class="question">
+            <p class="Q">4 Définir JSON. Dans quel contexte ce format est-il utilisé ?</p>
+            <p>Est un format qui permet de stocker des infos structurées
+                Il est utilisée pour transmettre des données d’une app web entre serveur et client.</p>
+        </div>
+        <div class="question">
+            <p class="Q">5 Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?</p>
+            <p>Oui, il est possible d'interpréter du JavaScript côté serveur grâce à l'utilisation d'environnements d'exécution spécifiques tels que Node.js.</p>
+        </div>
+        <div class="question">
+            <p class="Q">6 Qu’est-ce qu’un sélecteur CSS ?</p>
+            <p>Un sélecteur CSS est un élément qui permet d'identifier et de cibler spécifiquement des éléments HTML pour appliquer des règles de style.</p>
+        </div>
+        <div class="question">
+            <p class="Q">7 Quelle balise HTML permet de créer un lien hypertexte ?</p>
+            <p>La balise HTML qui permet de créer un lien hypertexte est la balise < a > </p>
+        </div>
+        <div class="question">
+            <p class="Q">8 Qu’est-ce qu’une requête AJAX ?</p>
+            <p>L’AJAX permet de modifier  partiellement la page  web affiche sur le poste client sans affiche une nouvel page</p>
+        </div>
+        <div class="question">
+            <p class="Q">9 Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un  identifiant spécifique ?</p>
+                <ul>
+                    <li> . permet de select une classe EX .classe</li>
+                    <li> # permet de select un id EX #classe </li>
+                </ul>
+        </div>
+        <div class="question">
+            <p class="Q">10 Définir le responsive design</p>
+            <p>Le responsive design vise a créer des sites web qui s'adaptent et se redimmensionne en fonction de la taille de l'écran.Le but et de fournir une experience utilisateur comfortable  et ergonomique sur tous type de support.</p>
+        </div>
+        <div class="question">
+            <p class="Q">11 Qu’est-ce que le templating ?</p>
+            <p>Le templating est utilisée pour séparer la structure et la présentation d'une page web, pour créer un modele réutilisable qui definie la structure de la page.</p>
+        </div>
+        <div class="question">
+            <p class="Q">12 Qu’est-ce qu’une fonction anonyme en Javascript ?</p>
+            <p>C’est une fonction qui na pas de nom, elle est utilise quand on a pas besoin d’appel cette fonction </p>
+        </div>
+        <div class="question">
+            <p class="Q">13 Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?</p>
+            <p>La methode utilisée est : PUSH().UNSHIFT() ajoute au debut du tab</p>
+        </div>
+        <div class="question">
+            <p class="Q">14 Qu’est-ce qu’un « media query » ?</p>
+            <p>15 Permet d’adapte le contenue en fonction de la taille de l’écran (ex tel tab desktop)</p>
+        </div>
+        <div class="question">
+            <p class="Q">15 Qu’est-ce qu’un pseudo élément en CSS ?</p>
+            <p>Mot clef ajoute a un sélecteur qui permet de mettre en forme une parie d’un element cible</p>
+        </div>
+        <div class="question">
+            <p class="Q">16 Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent</p>
+            <p>Bootstrap est un framework CSS . Il fournit une collection de composants, de styles prédéfinis et de scripts JavaScript pour faciliter la création rapide et la conception responsive de sites web.</p>
+            <ul>
+                <li>Foundation</li>
+                <li>Materialize</li>
+                <li>Skeleton</li>
+                <li>Tailwind</li>
+                <li>Uikit</li>
+                <li>Bulma</li>
+                <li>Semantic UI</li>
+            </ul>
+        </div>
+        <div class="question">
+            <p class="Q">17 Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
+                Donner la différence entre ces 2 méthodes</p>
+                <p>Lors de la création d'un formulaire HTML, les deux méthodes associées sont "GET" et "POST".</p>
+                <ul>
+                    <li>La méthode "GET" ajoute les données du formulaire à l'URL et est utilisée pour les requêtes non sensibles.</li>
+                    <li>La méthode "POST" envoie les données de manière sécurisée et est utilisée pour les requêtes sensibles.</li>
+                </ul>
+        </div>
+    </div>
 
     <h2>Programmation orienté objet (POO)</h2>
-    <div class="poo">
+    <div id="poo" class="poo">
         <div class="question">
             <p class="Q">1 Donner une définition de la programmation orientée objet</p>
             <p>La POO rassemble des informations en entités uniques appelées objets. Chaque objet est une instance unique d’une classe. </p>
@@ -276,309 +420,457 @@
     </div>
     
     <h2>Architecture</h2>
-    <div class="archi">
+    <div id="archi" class="archi">
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">1 Qu’est-ce que l’architecture client / serveur ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">2 Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern</p>
+            <p>Un design pattern est une solution à un problème de conception récurrent.</p>
+            <ul>
+                <li>Singleton : ce pattern est très couramment utilisé pour garantir qu’une classe n’a qu’une seule instance</li>
+                <li>Factory Method : ce pattern est couramment utilisé pour créer des objets dans une superclasse, mais permettre aux sous-classes de modifier le type d’objets qui seront créés</li>
+                <li>Observer : ce pattern est couramment utilisé pour informer un objet lorsqu’un événement se produit.</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">3 Qu’est-ce que l’architecture MVC ?</p>
+            <p>L'architecture MVC (model vue controlleur) est composée de trois responsabilités différentes:</p>
+            <ul>
+                <li>Les modéles (Model) contient les données à afficher.</li>
+                <li>Les vues (view) contient la présentation de l'interface utilisateur.</li>
+                <li>Les controlleur (controller) contient la logique de controle.</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">4 Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?</p>
+            <ul>
+                <li>le modèle (Model),Le modèle contient les données de l’application.</li>
+                <li>la vue (View) La vue est responsable de l’affichage des données et de l’interface utilisateur.</li>
+                <li>.Le contrôleur est responsable de la gestion des événements utilisateur et de la communication entre la vue et le modèle</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">5 Quels sont les avantages de l’architecture MVC ?</p>
+            <ul>
+                <li>La séparation des préoccupations : chaque composant est responsable d’une tâche spécifique, ce qui facilite la maintenance et l’evolution du code.</li>
+                <li>La réutilisation du code : les composants peuvent être réutilisés dans d’autres projets ou parties du même projet.</li>
+                <li>La facilité de test : chaque composant peut être testé indépendamment des autres.</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">6 Existe-t-il des variantes à l’architecture MVC ?</p>
+            <ul>
+                <li>MVVM (Modèle-Vue-VueModèle) : cette variante est utilisée pour les applications qui nécessitent une liaison de données bidirectionnelle entre la vue et le modèle.</li>
+                <li>MVP (Modèle-Vue-Présentateur) : cette variante est utilisée pour les applications qui nécessitent une séparation plus stricte entre la vue et le modèle.</li>
+                <li>MC (Modèle-Contrôleur) : cette variante est utilisée pour les applications qui ne nécessitent pas de vue.</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">7 Qu’est-ce qu’une API ? Définir l’architecture REST</p>
+            <p>Une API (Application Programming Interface) est une interface qui permet à deux applications de communiquer entre elles. Elle définit les méthodes et les formats de données utilisés pour l’échange d’informations
+            </p>
         </div>
     </div>
     
     <h2>Modélisation et base de données</h2>
-    <div class="modBdd">
+    <div id="modelBdd" class="modelBdd">
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">1 Qu’est-ce que la modélisation de données ? Définir la méthode Merise</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">2 Quelles sont les 3 étapes principales de la méthode Merise ?</p>
+            <ol>
+                <li>Analyse, conception et réalisation</li>
+                <li>Planification, exécution et contrôle</li>
+                <li>Création, modification et suppression</li>
+            </ol>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">3 Qu’est-ce qu’un modele conceptuel de donnee MCD en merise?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">4 Qu’est-ce modele logique de donnee MLD en merise?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">5 Donner la définition des mots suivants :</p>
+            <ul>
+                <li>Entity :</li>
+                <li>Relation :</li>
+                <li>Cardinalité :</li>
+                <li>Clé primaire / Clé etrangére :</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">6 Que devient une relation de type « Many To Many » dans le modèle logique de données ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">7 Qu’est-ce qu’une base de données ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">8 Définir les notions suivantes :</p>
+            <ul>
+                <li>SQL :</li>
+                <li>MySql :</li>
+                <li>SGBD (donner 2 exemples de SGBD) :</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">9 Dans une base de données, les données sont stockées dans des <strong>TABLE</strong>. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">10 Quelle est la différence entre une base de données relationnelle et non relationnelle ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">11 Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">12 A quoi sert une vue dans une base de données ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">13 Qu’est-ce que l’intégrité référentielle dans une base de données ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">14 Quelles sont les fonctions d’agrégation en SQL ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">15 Qu’est ce qu’un CRUD dans le contexte d’une base de données ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">16 Quelles sont les clauses qui permettent de :</p>
+            <ul>
+                <li>Insérer un nouvel enregistrement dans une table : INSERT INTO</li>
+                <li>Modifier un enregistrement dans une table : UPDATE</li>
+                <li>Supprimer un enregistrement dans une table : DELETE FROM</li>
+                <li>Supprimer la base de données : DROP DATABASE</li>
+                <li>Filtrer les résultats d’une requête SQL : WHERE</li>
+                <li>Trier les résultats d’une requête SELECT : ORDER BY</li>
+                <li>Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique : GROUP BY</li>
+                <li>Concaténer 2 chaînes de caractères : CONCAT(col1, col2)as cols</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">17 Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?</p>
         </div>
     </div>
 
     <h2>Symfony</h2>
-    <div class="symfony">
+    <div id="symfony" class="symfony">
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">1 Qu’est-ce que Symfony ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">2 Sur quel langage de programmation et design pattern repose Symfony ?</p>
+            <p> Symfony repose sur PHP et le design pattern MVC.</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">3 Quelle est la dernière version en date de Symfony ?</p>
+            <p>Symfony6</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">4 Qu’est-ce qu’un bundle ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">5 Quel est le moteur de template utilisé par défaut dans Symfony ?</p>
+            <p>Le moteur de template utilisée par default est TWIG.</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">6 Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">7 Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">8 Que permet le bundle Maker au sein de Symfony ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">9 Quel est le langage de requêtage exploité au sein d’un projet Symfony ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">10 Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?</p>
         </div>
     </div>
         
     <h2>Sécurité</h2>
-    <div class="securite">
+    <div id="securite" class="securite">
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">1 Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?</p>
+            <ul>
+                <li>L’injection SQL est une technique d'attaque qui consiste à injecter du code SQL malveillant dans une application Web pour accéder à des informations sensibles ou pour modifier les données</li>
+                <li>Pour s'en prémunir, il est recommandé de suivre certaines règles telles que l'utilisation de procédures stockées à la place du SQL dynamique, l'utilisation de comptes utilisateurs SQL à accès limité autant que possible et l'utilisation de requêtes SQL paramétrées.</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">2 Qu’est-ce que la faille XSS ? Comment s’en prémunir ?</p>
+            <ul>
+                <li>La faille XSS (Cross-Site Scripting) est une vulnérabilité qui permet à un attaquant d’injecter du code malveillant dans une page Web.</li>
+                <li>Pour s’en prémunir, la validation des entrées utilisateur et l’utilisation de fonctions de sécurité telles que htmlspecialchars().</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">3 Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">4 Définir l’attaque par force brute et l’attaque par dictionnaire</p>
+            <ul>
+                <li>L’attaque par force brute est une technique d’attaque qui consiste à essayer toutes les combinaisons possibles de mots de passe jusqu’à ce que le bon soit trouvé.</li>
+                <li>L’attaque par dictionnaire est une technique d’attaque qui consiste à utiliser une liste de mots courants pour essayer de deviner un mot de passe.</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">5 Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">6 A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">7 Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage</p>
+            <p>Le hachage d’un mot de passe est une technique qui consiste à transformer un mot de passe en une chaîne de caractères aléatoire. Cette chaîne est ensuite stockée dans la base de données à la place du mot de passe en clair. Lorsque l’utilisateur entre son mot de passe, le système le hache et compare la chaîne résultante à celle stockée dans la base de données. Si les deux chaînes correspondent, l’utilisateur est authentifié</p>
+            <ul>
+                <li>Bcript(fort)</li>
+                <li>(fort)</li>
+                <li>SHA256(faible)</li>
+                <li>MD5(faible)</li>
+            </ul>
+        <div class="question">
+            <p class="Q">8 Qu’est-ce qu’une politique de mots de passe forts ?</p>
+            <p>Une politique de mots de passe forts  définit les exigences minimales pour les mots de passe utilisés par les utilisateurs. Exemple :</p>
+            <ul>
+                <li>longueur minimale du mot de passe</li>
+                <li>l’utilisation de majuscule et/ou chiffre e/ou caractères spéciaux</li>
+                <li>la fréquence de changement du mot de passe</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">9 Qu’est-ce que l’hameçonnage ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
-        </div>
-        <div class="question">
-            <p class="Q"></p>
+            <p class="Q">10 Définir la « validation des entrées »</p>
         </div>
     </div>
         
     <h2>RGPD</h2>
-    <div class="rgpd">
+    <div id="rgpd" class="rgpd">
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">1 Qu’est-ce que le RGPD ? </p>
+            <p>Il s'agit d'un texte réglementaire européen qui encadre le traitement des données de manière égalitaire sur tout le territoire de l’Union européenne (UE).</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">2 Quel est son objectif principal ?</p>
+            <p>Les 3 objectifs principaux</p>
+            <ol>
+                <li>Renforcer le droit des citoyens quant au traitement de leurs données personnelles.</li>
+                <li>Créer un cadre légal simplifié et unifié à l’échelle européenne.</li>
+                <li>Responsabiliser davantage les entreprises sur la question du traitement des données</li>
+            </ol>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">3 Quelle est la date d’entrée en vigueur du RGPD ?</p>
+            <p>Il est entré en application le 25 mai 2018.</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">4 Quelles sont les sanctions possibles en cas de non-respect du RGPD ?</p>
+            <p>Le RGPD prévoit des sanctions allant jusqu’à 20 millions d’euros ou 4% du chiffre d’affaires mondial d’une entreprise. Ces sanctions peuvent être rendues publiques.</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">5 En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?</p>
+            <p>En France, l’autorité administrative qui s’occupe de faire appliquer le RGPD est la Commission nationale de l’informatique et des libertés (CNIL).</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">6 Quel est le consentement valide selon le RPGD ?</p>
+            <p>Le consentement RGPD est une base légale pour le traitement des données à caractère personnel. Il doit être une manifestation de volonté, libre, spécifique, éclairée et univoque de la personne concernée. Il peut être donné par une déclaration ou par un acte positif clair</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">7 Qu’est-ce qu’une politique de confidentialité ?</p>
+            <p>Un document expliquant en détail les modalités de traitement des données personnelles dans le cadre d’une relation commerciale.</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">8 Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?</p>
+            <p>Les données personnelles ne peuvent être conservées indéfiniment. Si elles sont inactives depuis 36 mois doivent être supprimées de la base de données. Possibilite de garde plus longtemps dans cadre d’un e-commerce car les facture doivent être conserve 10ans</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">9 Quels sont les droits des utilisateurs selon le RGPD ?</p>
+            <ul>
+                <li>Droit d’information</li>
+                <li>Droit de rectification, d’effacement</li>
+                <li>Les droits à la limitation du traitement</li>
+                <li>Le droit de ne pas faire l’objet d’une décision individuelle automatisée, y compris le profilage</li>
+                <li>Le droit à la portabilité</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">10 Qu’est-ce que le principe de minimisation des données selon le RGPD ?</p>
+            <p>Les données personnelles collectées doivent l’être de façon pertinente limitées au stricte nécessaire en rapport avec les besoin du site.</p>
         </div>
     </div>
         
     <h2>SEO</h2>
-    <div class="seo">
+    <div id="seo" class="seo">
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">1 Qu’est-ce que le SEO ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">2 Quel est l’objectif principal du SEO ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">3 Existe-t-il plusieurs types de référencement ? Lesquels ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">4 Qu’est-ce que la densité de mots-clés en SEO ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">5 Qu’est-ce qu’une balise « alt » ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">6 Qu’est-ce que la balise « meta description » ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">7 Qu’est-ce que le « nofollow » en SEO ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">8 Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">9 Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">10 Quelle est la recommandation pour les URL d'un site web bien référencé ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">11 Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">12 Qu'est-ce que l'optimisation des images pour le référencement ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">13 Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?</p>
         </div>
     </div>
 
     <h2>Gestion de projets / DevOps </h2>
-    <div class="gestPro">
+    <div id="gestionProjet" class="gestionProjet">
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">1 Qu’est-ce que la gestion de projet ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">2 Qu’est-ce qu’une méthode Agile de gestion de projet ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">3 Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">4 A quoi sert la méthodologie MVP ? Citer les caractéristiques clés</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">5 Qu’est-ce que la planification itérative ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">6 Citer 3 méthodes Agiles dans le cadre d’un projet informatique</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">7 Qu’est-ce qu’une réunion de revue de projet ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">8 Qu’est-ce qu’un livrable dans un projet ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">9 Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">10 Qu’est-ce que le DevOps et quel est son objectif principal ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">11 Qu’est-ce que l’intégration continue ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">12 Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">13 Qu’est-ce qu’un test unitaire ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">14 Quelle est l'unité de code testée lors d'un test unitaire ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">15 Quelles sont les caractéristiques d'un bon test unitaire ?</p>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">16 Qu'est-ce qu'une assertion dans un test unitaire ?</p>
         </div>
     </div>
         
     <h2>English</h2>
-    <div class="english">
+    <div id="english" class="english">
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">1 What does JavaScript enable you to do on a website ?</p>
+            <ul>
+                <li><strong>Add interactive behavior and dynamic content</strong> </li>
+                <li>Define the layout and design of web pages</li>
+                <li>Handle server-side operations</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">2 Which programming language is primarily used for server-side web development ?</p>
+            <ul>
+                <li><strong>PHP</strong> </li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">3 What is the purpose of a web browser ?</p>
+            <ul>
+                <li><strong>To render and display web pages</strong> </li>
+                <li>To execute serve-side code</li>
+                <li>To manage databases</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">4 What is the difference between GET and POST methods in HTTP ?</p>
+            <ul>
+                <li><strong>GET retrieves data from a server, while POST submits data to a server  </strong> </li>
+                <li>GET submits data to a server, while POST retrieves data from a server</li>
+                <li>GET and POST methods are interchangeable</li>
+            </ul>
+
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">5 What is the purpose of version control systems (e.g., Git) in web development ?</p>
+            <ul>
+                <li><strong>To track changes and manage collaborative development</strong> </li>
+                <li>To optimize website loading speed</li>
+                <li>To handle server-side scripting</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">6 What is the purpose of a framework in web development ?</p>
+            <ul>
+                <li><strong>To provide a structured environment for building web applications</strong> </li>
+                <li>To handle network protocols and data transfer</li>
+                <li>To create visual designs and layouts for websites</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">7 What does NoSQL stand for ?</p>
+            <ul>
+                <li><strong>Not Only SQL</strong> </li>
+                <li>Non-Structured Query Language</li>
+                <li>New Object-Oriented Language</li>
+            </ul>
         </div>
         <div class="question">
-            <p class="Q"></p>
+            <p class="Q">8 Which of the following is a characteristic of NoSQL databases ?</p>
+            <ul>
+                <li>Strict schema enforcement</li>
+                <li>Support for complex transactions</li>
+                <li><strong>Scalability and flexible data models</strong> </li>
+            </ul>
         </div>
     </div>
+</div>
+<script src="https://kit.fontawesome.com/ef55713c5a.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
         
