@@ -1,6 +1,18 @@
 .Q{
     color: blue;
 }
+#general, #frontEnd, #rgpd,#english, #archi, #symfony, #uxUi, #poo{
+    color: green;
+}
+#seo, #securite, #gestionProjet, #modelBdd{
+    color: red;
+}
+#generalN, #frontEndN, #rgpdN,#englishN, #archiN, #uxUiN, #symfonyN,  #pooN{
+    color: green;
+}
+#seoN, #securiteN, #gestionProjetN, #modelBddN{
+    color: red;
+}
 .sticky {
 	background-color:#434343;
 	border-radius:50%;
@@ -14,5 +26,5 @@
     position: fixed;
     bottom: 20px;
     right: 40px;
-    
+
 }
