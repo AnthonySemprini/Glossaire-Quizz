@@ -649,6 +649,7 @@
         </div>
         <div class="question">
             <p class="Q">3 Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?</p>
+            <p>est une vulnérabilte qui permet a une personne malvaillante de tromper un utilisateur pour qu'il effectue des action non souhaité afin de chan ger le password modif ou recup des données etc...</p>
         </div>
         <div class="question">
             <p class="Q">4 Définir l’attaque par force brute et l’attaque par dictionnaire</p>
@@ -659,9 +660,30 @@
         </div>
         <div class="question">
             <p class="Q">5 Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement</p>
+            <p>Le top  des failles de securié de l'OWASP</p>
+            <ul>
+                <li>Brocken access control : Se produit lorsque des utilisateurs non autorisées peuvent accéeder a des données ou fonctionnalités auxquelles il ne devraient pas avoir accés. Pour se prémunir du "Broken Access Control", il faut mettre en place des règles strictes d'autorisation d'accès aux données et aux fonctionnalités.</li><br>
+                <li>Cryptographic faillures : sont des vulnérabilités dans les systèmes de sécurité basés sur la cryptographie, qui peuvent entraîner des fuites de données confidentielles ou des compromissions de la confidentialité lorsque les méthodes de chiffrement ne sont pas correctement implémentées ou sont compromises.</li><br>
+                <li>Injection : est une vulnérabilité qui se produit lorsque des données non sécurisées sont incorporées dans une application web, ce qui permet à des attaquants d'exécuter du code malveillant ou de manipuler la base de données de l'application.
+                    <ul>
+                        <li>SQL injection</li>
+                        <li>XSS</li>
+                        <li>LDAP injection</li>
+                        <li>XLM injection</li>
+                    </ul>
+                </li><br>
+                <li>Insecure design : designe une defaillance de conception qui crée des vunerabilités a cause de choix de conception non secur ou de faille conceptuelle d'architecture.</li><br>
+                <li>Vulnerable and outdated components fait référence a l'utilisatioon de logiciels ou de composents obsolétes ou connus pour avoir des vulnérabilités de sécurité.</li><br>
+                <li>Identification and authenfication failures : Se produisent lorsque les processus de vérification de l'identité des utilisateurs échouent, permettant potentiellement à des individus non autorisés d'accéder à des systèmes ou à des données sensibles en utilisant des informations d'identification incorrectes ou compromises.</li>
+                <li>Server-side request Forgery (SSRF) : permet  a une personne malvaillante de faire des requetes depuis un serveur vers des ressources internes souvent utilise pour obtenir des infos sensible ou causer des degats.</li>
+            </ul>
         </div>
         <div class="question">
             <p class="Q">6 A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?</p>
+            <ul>
+                <li>L'authentification sert a verifier l'identité des utilisateur.</li>
+                <li>L'autorisation sert a determiner les acces d'un utilistaur une fois connecté.</li>
+            </ul>
         </div>
         <div class="question">
             <p class="Q">7 Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage</p>
@@ -683,9 +705,11 @@
         </div>
         <div class="question">
             <p class="Q">9 Qu’est-ce que l’hameçonnage ?</p>
+            <p>Des personnes malvaillantes se font passées pour une entités de confiance tel que netflix, edf, les impots etc... pour tromper l'utilisateur afin de lui soustraire des infos personnel.</p>
         </div>
         <div class="question">
             <p class="Q">10 Définir la « validation des entrées »</p>
+            <p>Permet de verifier et filtrer les entrées d'un utilisateur pour qu'elle soit conforme aux attente du site ou de l'application.</p>
         </div>
     </div>
                                     <!-- RGPD -->
