@@ -81,8 +81,8 @@
             <li>AJAX : Asynchronous JavaScript and XML(JavaScript et XML asynchrones)</li>
             <li>XSS : Cross-Site Scripting</li>
             <li>ORM : Object-Relational Mapper</li>
-            <li></li>
-            <li></li>
+            <li>SQL : Structured Query Language </li>
+            <li>SGBD : systeme de gestion de base de données</li>
             <li></li>
             <li></li>
             <li></li>
@@ -327,7 +327,7 @@
             <p>L’AJAX permet de modifier  partiellement la page  web affiche sur le poste client sans affiche une nouvel page</p>
         </div>
         <div class="question">
-            <p class="Q">9 Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un  identifiant spécifique ?</p>
+            <p class="Q">9 Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?</p>
                 <ul>
                     <li> . permet de select une classe EX .classe</li>
                     <li> # permet de select un id EX #classe </li>
@@ -553,26 +553,55 @@
         </div>
         <div class="question">
             <p class="Q">6 Que devient une relation de type « Many To Many » dans le modèle logique de données ?</p>
+            <p>Elle est represente en table d'association qui gére des relations complexes entre 2 entitées</p>
         </div>
         <div class="question">
             <p class="Q">7 Qu’est-ce qu’une base de données ?</p>
+            <p>Une BDD et un ensemble de données structurées et stockées de facon a pouvoir y acceder et de les gérées de facon efficace  </p>
         </div>
         <div class="question">
             <p class="Q">8 Définir les notions suivantes :</p>
             <ul>
                 <li>SQL :</li>
+                <p>SQL (Structured Query Language) est un langage de programmation qui permet de manipuler des données stockées dans une BDD</p>
                 <li>MySql :</li>
-                <li>SGBD (donner 2 exemples de SGBD) :</li>
+                <p>MySql est un SGBD open source utile pour stockér gerer et recuperer des données grace au langage SQl</p>
+                <li>SGBD (donner 2 exemples de SGBD) :
+                    <p>Un systeme de gestion de base de données est un logiciel qui permet de manipuler des données.</p>
+                    <ul>
+                        <li>MySql</li>
+                        <li>Oracle Database</li>
+                        <li>Microsoft SQl sever</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </li>
             </ul>
         </div>
         <div class="question">
             <p class="Q">9 Dans une base de données, les données sont stockées dans des <strong>TABLE</strong>. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___</p>
+            <p>enrengistrement</p>
+            <p>attributs</p>
         </div>
         <div class="question">
             <p class="Q">10 Quelle est la différence entre une base de données relationnelle et non relationnelle ?</p>
+            <p>Les pricipale différence sont la facon de stock les données</p>
+            <ul>
+                <li>RELATIONNELLE : sturcturé sous forme de table avec des enrengistrement et des attributs</li>
+                <li>NON RELATIONNELLE : utilise plusieur autre structure document paire cle-valeur etc...</li>
+            </ul>
         </div>
         <div class="question">
             <p class="Q">11 Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?</p>
+            <p>Les jointure servent a atteindre les données de plusieur table pour des requets plus complexe </p>
+            <p>Les jointures en SQL:</p>
+            <ul>
+                <li>INNER jOIN</li>
+                <li>LEFT JOIN</li>
+                <li>RIGTH JOIN</li>
+                <li>FULL JOIN</li>
+                <li>CROSS JOIN</li>
+                <li>SELF JOIN</li>
+            </ul>
         </div>
         <div class="question">
             <p class="Q">12 A quoi sert une vue dans une base de données ?</p>
@@ -601,6 +630,8 @@
         </div>
         <div class="question">
             <p class="Q">17 Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?</p>
+            <p></p>
+            <p>La classe native en php est PDO</p>
         </div>
     </div>
                                     <!-- SYMFONY -->
