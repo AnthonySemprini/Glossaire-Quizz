@@ -1,16 +1,16 @@
 .Q{
     color: blue;
 }
-#general, #frontEnd, #rgpd, #seo,  #securite, #english, #archi, #symfony, #uxUi, #poo{
+#gestionProjet,  #general, #frontEnd, #rgpd, #seo,  #securite, #english, #archi, #symfony, #uxUi, #poo{
     color: green;
 }
-#gestionProjet, #modelBdd{
+#modelBdd{
     color: red;
 }
-#generalN, #seoN,  #frontEndN, #rgpdN, #englishN, #archiN, #securiteN, #uxUiN, #symfonyN,  #pooN{
+#gestionProjetN, #generalN, #seoN,  #frontEndN, #rgpdN, #englishN, #archiN, #securiteN, #uxUiN, #symfonyN,  #pooN{
     color: green;
 }
- #gestionProjetN, #modelBddN{
+  #modelBddN{
     color: red;
 }
 .sticky {
