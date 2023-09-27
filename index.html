@@ -120,7 +120,7 @@
     <div class="general" >
         <div class="question">
             <p class="Q">1 Quel est  l'environnement à installer pour  exécuter  un  script  PHP?  Citer 2  exemples  de  logiciels permettant ce contexte</p>
-            <p>Pour exécuter un script PHP, vous avez besoin d'un environnement de développement ou d'un serveur web capable de prendre en charge PHP.</p>
+            <p>Pour exécuter un script PHP, vous avez besoin d'un environnement de développement ou d'un serveur web(apache) capable de prendre en charge PHP.</p>
             <p>Laragon et XAMPP</p>
         </div>
         <div class="question">
@@ -164,8 +164,9 @@
                 <li>Flottant (float) Reprensente les nombres decimaux EX $prix = 9,99.</li>
                 <li>Chaine de caractere (string) Represente un ensemble de caracteres EX $nom = anthony. </li>
                 <li>Booléen (bool) Le Booleen renvoit vrai ou faux EX $estValid = False</li>
-                <li>Tableau (array) Represente une questionlection d'elements EX $nbTab = arrray(1,2,3,4,5,6).</li>
+                <li>Tableau (array) Represente une collection d'elements EX $nbTab = arrray(1,2,3,4,5,6).</li>
                 <li>Null (null): Absence de valeur EX $variable = null.</li>
+                <li>Objet (object ): regroupe des données et des  méthodes de facon structurée </li>
             </ul>
         <div class="question">
             <p class="Q">8 Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ? </p>
@@ -320,7 +321,7 @@
         </div>
         <div class="question">
             <p class="Q">7 Quelle balise HTML permet de créer un lien hypertexte ?</p>
-            <p>La balise HTML qui permet de créer un lien hypertexte est la balise < a > </p>
+            <p>La balise HTML qui permet de créer un lien hypertexte est la balise anchor (ancre) < a > </p>
         </div>
         <div class="question">
             <p class="Q">8 Qu’est-ce qu’une requête AJAX ?</p>
@@ -706,7 +707,8 @@
         </div>
         <div class="question">
             <p class="Q">3 Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?</p>
-            <p>est une vulnérabilte qui permet a une personne malvaillante de tromper un utilisateur pour qu'il effectue des action non souhaité afin de chan ger le password modif ou recup des données etc...</p>
+            <p>est une vulnérabilte qui permet a une personne malvaillante de tromper un utilisateur pour qu'il effectue des action non souhaité afin de changer le password modif ou recup des données etc...</p>
+            <p>Pour s'en prémunir il faut utiliser des jetons csrf unique et aléatoires dans les formulaires</p>
         </div>
         <div class="question">
             <p class="Q">4 Définir l’attaque par force brute et l’attaque par dictionnaire</p>
@@ -747,7 +749,7 @@
             <p>Le hachage d’un mot de passe est une technique qui consiste à transformer un mot de passe en une chaîne de caractères aléatoire. Cette chaîne est ensuite stockée dans la base de données à la place du mot de passe en clair. Lorsque l’utilisateur entre son mot de passe, le système le hache et compare la chaîne résultante à celle stockée dans la base de données. Si les deux chaînes correspondent, l’utilisateur est authentifié</p>
             <ul>
                 <li>Bcript(fort)</li>
-                <li>(fort)</li>
+                <li>Argon2i(fort)</li>
                 <li>SHA256(faible)</li>
                 <li>MD5(faible)</li>
             </ul>
