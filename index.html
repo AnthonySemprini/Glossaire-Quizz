@@ -439,7 +439,7 @@
         </div>
         <div class="question">
             <p class="Q">12 Définir une méthode / classe abstraite ?</p>
-            <p>?????????????</p>
+            <p>C'est un modele pour d'autre classe. Elle peut contenir des régles que d'autre classe doivent suivre mais ne peut pas etre utilise pour cree des objets.'</p>
         </div>
         <div class="question">
             <p class="Q">13 Définir le chaînage de méthodes </p>
@@ -606,15 +606,35 @@
         </div>
         <div class="question">
             <p class="Q">12 A quoi sert une vue dans une base de données ?</p>
+            <p>Les vues sont utilisée en bdd pour  simplifier l'accés aux données les securisée et founir une representation virtuelle structurée </p>
         </div>
         <div class="question">
             <p class="Q">13 Qu’est-ce que l’intégrité référentielle dans une base de données ?</p>
+            <p>L'integrite référentielle est une caracteristique des bdd relationnelles qui maintien les relations entre les tables à l'aide des clefs etrangére. elle garantie la qualitée des bdd </p>
         </div>
         <div class="question">
             <p class="Q">14 Quelles sont les fonctions d’agrégation en SQL ?</p>
+            <p>Les fonctions d'agrégations sql permettent de faire des calcules dans les colonnes et permettent de regroupe ou resume des donnees afin obtenir par exemple des statistique</p>
+            <p>Les plus courantes sonbt :</p>
+            <ul>
+                <li>COUNT() compte les lignes ou les nombres</li>
+                <li>SUM() calcule la somme des valeur numerique d'une colonne</li>
+                <li>AVG()calcul la moyen des valeur numérique</li>
+                <li>MIN() retoune la valeur la plus basse d'une colonne</li>
+                <li>MAX() retoune la valeur la plus haute d'une colonne</li>
+                <li>CONCAT() concatene plusieurs valeurs en une chaine de caractere</li>
+                <li>Variance(),First(),Last(), ect...</li>
+            </ul>
         </div>
         <div class="question">
             <p class="Q">15 Qu’est ce qu’un CRUD dans le contexte d’une base de données ?</p>
+            <p>Dans ce cas le CRUD représente les opération que l'on peut effectuer sur les données</p>
+            <ul>
+                <li>Create Ajoute de nouvelles données</li>
+                <li>Read Recupére les données existante</li>
+                <li>Update Modifier les données deja existante</li>
+                <li>Delete Supprime des données </li>
+            </ul>
         </div>
         <div class="question">
             <p class="Q">16 Quelles sont les clauses qui permettent de :</p>
@@ -631,7 +651,14 @@
         </div>
         <div class="question">
             <p class="Q">17 Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?</p>
-            <p></p>
+            <p>On utlise l'extention php pdo de cette facon </p>
+            <ul>
+                <li>$host = 'nom du serveur'</li>
+                <li>$dbmane = 'nom de la bdd'</li>
+                <li>$username = 'nom user'</li>
+                <li>$password = 'mot de passe'</li>
+            </ul>
+            <p>puis on connecte grace a : $connect = new PDO("mysql:host=$host;dbname=$dbname", $username, $password)"</p>
             <p>La classe native en php est PDO</p>
         </div>
     </div>
